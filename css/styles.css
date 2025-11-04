@@ -1,0 +1,41 @@
+@media (min-width: 600px) {
+  .grid-parent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+}
+@media (min-width: 800px) {
+  .grid-parent {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+
+
+
+
+
+
+/* basic font formatting */
+body {
+  font-family: "Libre Franklin", sans-serif;
+  line-height: 1.5;
+}
+/* make image flex with container */
+img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+/* styling our button links */
+.button {
+  display: inline-block;
+  background-color: #AF3702;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.button:hover {
+  background-color: #380100;
+}
